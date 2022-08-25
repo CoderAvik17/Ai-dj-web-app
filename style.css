@@ -1,22 +1,57 @@
 .heading
 {
     font-size: 23px;
-    color: black;
-    margin: 5px;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-    border-radius: 15px;
+    width: 100%;
+    margin: 0px;
 }
 
-body{
-    background-size: cover;
-}
-
-#song_name
+.note
 {
-    background-color: pink;
-    color: black;
-    border-radius: 15px;
-    font-size: 20px;
+    font-size: 17px;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div_speed
+{
+    float: left;
+}
+
+.div_speed_image
+{
+    width: 150px;
+    border-radius: 80px;
+}
+
+#speed
+{
+    font-size: 25px;
+    margin: 20px;
+}
+
+.div_volume
+{
+    float: right;
+}
+
+.div_volume_image
+{
+    width: 150px;
+    border-radius: 50;
+}
+
+#volume
+{
+    font-size: 25px;
+    margin: 20px;
+}
+.play_button
+{
+    width: 120px;
+    height: 30px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
 }
